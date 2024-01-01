@@ -1,77 +1,46 @@
-# ButtonPi
+<h1 align="center" id="title">ButtonPi</h1>
 
-ButtonPi is a Raspberry Pi project that enables safe shutdown and start functionality using a momentary push button. It allows you to gracefully power off your Raspberry Pi and easily turn it back on using a physical button.
+<p id="description">Raspberry Pi project that enables safe shutdown and start functionality using a momentary push button. It allows you to gracefully power off your Raspberry Pi and easily turn it back on using a physical button.</p>
 
-## Prerequisites
+<h2>🛠️ Installation Steps:</h2>
 
-Before getting started, make sure you have the following:
+<p>1. Connect the momentary push button to your Raspberry Pi following the pinout diagram</p>
 
-- Raspberry Pi board
-- Momentary push button
-- Jumper wires
-- Basic knowledge of using the Raspberry Pi terminal
+<p>2. Clone the ButtonPi repository to your Raspberry Pi by running the following command in the terminal:</p>
 
-## Installation
+```
+git clone https://github.com/lohitkolluri/ButtonPi.git
+```
 
-1. Connect the momentary push button to your Raspberry Pi following the pinout diagram below:
+<p>3. Navigate to the ButtonPi directory:</p>
 
-   ![Raspberry Pi Pinout Diagram](pinout-diagram.png)
+```
+cd ButtonPi
+```
 
-2. Clone the ButtonPi repository to your Raspberry Pi by running the following command in the terminal:
-   ```
-   git clone https://github.com/lohitkolluri/ButtonPi.git
-   ```
+<p>4. Make the installation script executable:</p>
 
-3. Navigate to the ButtonPi directory:
-   ```
-   cd ButtonPi
-   ```
+```
+chmod +x install.sh
+```
 
-4. Make the installation script executable:
-   ```
-   chmod +x install.sh
-   ```
+<p>5. Run the installation script with root privileges:</p>
 
-5. Run the installation script with root privileges:
-   ```
-   sudo ./install.sh
-   ```
+```
+sudo ./install.sh
+```
+Follow the on-screen prompts to complete the installation.
 
-   Follow the on-screen prompts to complete the installation.
+<h2>⚙️ Usage:</h2>
 
-## Usage
+<p>1. Power on your Raspberry Pi.</p>
 
-1. Power on your Raspberry Pi.
+<p>2. Press the momentary push button once to initiate the safe shutdown process.</p>
 
-2. Press the momentary push button once to initiate the safe shutdown process.
+<p>3. Wait for the Raspberry Pi to shut down completely before proceeding.</p>
 
-3. Wait for the Raspberry Pi to shut down completely before proceeding.
+<p>4. To start the Raspberry Pi again press the push button.</p>
 
-4. To start the Raspberry Pi again, press the push button.
+<h2>🛡️ License:</h2>
 
-## Uninstallation
-
-To uninstall ButtonPi and remove associated files, follow these steps:
-
-1. Open a terminal on your Raspberry Pi.
-
-2. Navigate to the ButtonPi directory:
-   ```
-   cd ButtonPi
-   ```
-
-3. Run the uninstallation script with root privileges:
-   ```
-   sudo ./uninstall.sh
-   ```
-
-   Follow the on-screen prompts to complete the uninstallation.
-
-## Troubleshooting
-
-- If the shutdown button does not work, double-check the wiring connections and ensure they match the pinout diagram.
-- For any issues or questions, please create an issue on the [ButtonPi GitHub repository](https://github.com/lohitkolluri/ButtonPi) for assistance.
-
-## Acknowledgments
-
-- Raspberry Pi pinout diagram adapted from the official Raspberry Pi Foundation [Pinout documentation](https://pinout.xyz/).
+This project is licensed under the MIT License
