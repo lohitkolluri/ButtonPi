@@ -1,4 +1,4 @@
-<h1 align="center" id="title">ButtonPi</h1>
+<h1 align="center" id="title">🌐 ButtonPi 🌐</h1>
 
 <p id="description">Raspberry Pi project that enables safe shutdown and start functionality using a momentary push button. It allows you to gracefully power off your Raspberry Pi and easily turn it back on using a physical button.</p>
 
